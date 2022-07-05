@@ -67,3 +67,14 @@
   h2 {
     text-align: center;
   }
+
+  /* main image styling */
+  #profile-image {
+    max-width: 200px;
+    min-width: 150px;
+    height: auto;
+    border-radius: var(--border-radius);
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    margin: 0 auto;
+  }
