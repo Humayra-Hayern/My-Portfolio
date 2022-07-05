@@ -7,12 +7,12 @@
     --border-style: groove;
     --border-radius: 10px;
   }
-
+  
   /* scrolling transition when clicking links */
   html {
     scroll-behavior: smooth;
   }
-
+  
   /* backing colour and font styling */
   body {
     background-color: var(--main-background-color);
@@ -20,7 +20,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
   }
-
+  
   /* start of nav bar styling */
   header {
     position: fixed;
@@ -40,12 +40,12 @@
     color: var(--font-color);
     text-decoration: none;
   }
-
+  
   nav a:hover {
     color: var(--main-background-color);
   }
   /* end of nav bar styling */
-
+  
   /* un ordered list styling (navbar and contact me) */
   ul {
     display: inline-flex;
@@ -57,7 +57,7 @@
   ul li {
     padding: 10px;
   }
-
+  
   /* header styling */
   h1 {
     padding-top: 100px;
@@ -67,7 +67,7 @@
   h2 {
     text-align: center;
   }
-
+  
   /* main image styling */
   #profile-image {
     max-width: 200px;
@@ -78,7 +78,7 @@
     border-style: var(--border-style);
     margin: 0 auto;
   }
-
+  
   /* start of styling for about me, my work and contact me */
   #about-me {
     text-align: left;
@@ -110,7 +110,7 @@
     border-style: var(--border-style);
     max-width: 90%;
   }
-
+  
   /* colour of border changes when hovering over the project images */
   #my-work img:hover {
     border: var(--font-color);
@@ -138,7 +138,7 @@
   #contact-me a:hover {
     color: var(--secondary-colour);
   }
-
+  
   /* changes size of contact me logos depending on device */
   @media screen and (max-width: 400px) {
     #contact-me a {
@@ -146,7 +146,7 @@
     }
   }
   /* end of styling for about me, my work and contact me */
-
+  
   /* footer with a top margin to create a gap between contact me and footer */
   footer {
     margin-top: 300px;
