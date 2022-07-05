@@ -7,12 +7,12 @@
     --border-style: groove;
     --border-radius: 10px;
   }
-
+  
   /* scrolling transition when clicking links */
   html {
     scroll-behavior: smooth;
   }
-
+  
   /* backing colour and font styling */
   body {
     background-color: var(--main-background-color);
@@ -20,7 +20,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
   }
-
+  
   /* start of nav bar styling */
   header {
     position: fixed;
@@ -39,4 +39,115 @@
   nav a {
     color: var(--font-color);
     text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: var(--main-background-color);
+  }
+  /* end of nav bar styling */
+  
+  /* un ordered list styling (navbar and contact me) */
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+  }
+  
+  ul li {
+    padding: 10px;
+  }
+  
+  /* header styling */
+  h1 {
+    padding-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  /* main image styling */
+  #profile-image {
+    max-width: 200px;
+    min-width: 150px;
+    height: auto;
+    border-radius: var(--border-radius);
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    margin: 0 auto;
+  }
+  
+  /* start of styling for about me, my work and contact me */
+  #about-me {
+    text-align: left;
+  }
+  
+  .content-boxes {
+    background-color: var(--box-color);
+    padding: 50px;
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    border-radius: var(--border-radius);
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  #my-work {
+    display: inline-block;
+  }
+  
+  #showpiece {
+    margin: 0 auto;
+    min-width: 50%;
+  }
+  
+  #my-work img {
+    margin: 15px;
+    border-radius: var(--border-radius);
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    max-width: 90%;
+  }
+  
+  /* colour of border changes when hovering over the project images */
+  #my-work img:hover {
+    border: var(--font-color);
+    border-radius: 10px;
+    border-style: var(--border-style);
+  }
+  
+  #thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+  }
+  
+  #thumbnails img {
+    min-width: 30vw;
+  }
+  
+  #contact-me a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 80px;
+  }
+  
+  #contact-me a:hover {
+    color: var(--secondary-colour);
+  }
+  
+  /* changes size of contact me logos depending on device */
+  @media screen and (max-width: 400px) {
+    #contact-me a {
+      font-size: 40px;
+    }
+  }
+  /* end of styling for about me, my work and contact me */
+  
+  /* footer with a top margin to create a gap between contact me and footer */
+  footer {
+    margin-top: 300px;
   }
