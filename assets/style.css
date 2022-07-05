@@ -7,3 +7,8 @@
     --border-style: groove;
     --border-radius: 10px;
   }
+
+  /* scrolling transition when clicking links */
+  html {
+    scroll-behavior: smooth;
+  }
