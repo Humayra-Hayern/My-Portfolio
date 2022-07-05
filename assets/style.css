@@ -145,3 +145,9 @@
       font-size: 40px;
     }
   }
+  /* end of styling for about me, my work and contact me */
+
+  /* footer with a top margin to create a gap between contact me and footer */
+  footer {
+    margin-top: 300px;
+  }
