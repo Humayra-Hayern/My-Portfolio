@@ -110,3 +110,31 @@
     border-style: var(--border-style);
     max-width: 90%;
   }
+
+  /* colour of border changes when hovering over the project images */
+  #my-work img:hover {
+    border: var(--font-color);
+    border-radius: 10px;
+    border-style: var(--border-style);
+  }
+  
+  #thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10%;
+  }
+  
+  #thumbnails img {
+    min-width: 30vw;
+  }
+  
+  #contact-me a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 80px;
+  }
+  
+  #contact-me a:hover {
+    color: var(--secondary-colour);
+  }
