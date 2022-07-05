@@ -40,3 +40,8 @@
     color: var(--font-color);
     text-decoration: none;
   }
+
+  nav a:hover {
+    color: var(--main-background-color);
+  }
+  /* end of nav bar styling */
