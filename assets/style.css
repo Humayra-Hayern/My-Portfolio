@@ -12,3 +12,11 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* backing colour and font styling */
+  body {
+    background-color: var(--main-background-color);
+    color: var(--font-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
