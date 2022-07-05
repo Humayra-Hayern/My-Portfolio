@@ -78,3 +78,35 @@
     border-style: var(--border-style);
     margin: 0 auto;
   }
+
+  /* start of styling for about me, my work and contact me */
+  #about-me {
+    text-align: left;
+  }
+  
+  .content-boxes {
+    background-color: var(--box-color);
+    padding: 50px;
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    border-radius: var(--border-radius);
+    max-width: 900px;
+    margin: 50px auto;
+  }
+  
+  #my-work {
+    display: inline-block;
+  }
+  
+  #showpiece {
+    margin: 0 auto;
+    min-width: 50%;
+  }
+  
+  #my-work img {
+    margin: 15px;
+    border-radius: var(--border-radius);
+    border: var(--secondary-colour);
+    border-style: var(--border-style);
+    max-width: 90%;
+  }
