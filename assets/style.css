@@ -138,3 +138,10 @@
   #contact-me a:hover {
     color: var(--secondary-colour);
   }
+
+  /* changes size of contact me logos depending on device */
+  @media screen and (max-width: 400px) {
+    #contact-me a {
+      font-size: 40px;
+    }
+  }
