@@ -45,3 +45,15 @@
     color: var(--main-background-color);
   }
   /* end of nav bar styling */
+
+  /* un ordered list styling (navbar and contact me) */
+  ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+  }
+  
+  ul li {
+    padding: 10px;
+  }
