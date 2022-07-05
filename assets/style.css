@@ -1,0 +1,9 @@
+/* setting variables */
+:root {
+    --main-background-color: #6748be;
+    --box-color: #020202;
+    --secondary-colour: #2937b8;
+    --font-color: #ffffff;
+    --border-style: groove;
+    --border-radius: 10px;
+  }
