@@ -20,3 +20,23 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
   }
+
+  /* start of nav bar styling */
+  header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  
+  nav {
+    background-color: var(--secondary-colour);
+    border-radius: 0 0 10px 10px;
+    border: var(--font-color);
+    border-style: var(--border-style);
+  }
+  
+  nav a {
+    color: var(--font-color);
+    text-decoration: none;
+  }
