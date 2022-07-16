@@ -2,6 +2,8 @@
 I created a portfolio for myself containing different sections including an "about me", "contact me" and a section that contains links to my work. I utilised HTML and CSS for this project.
 
 # Appearance
+The image below displays the website's appearance and functionality.
+
 ![11](https://user-images.githubusercontent.com/95111780/177648798-e22bfcea-7085-4b62-8240-738eaefe9e91.PNG)
 
 # Link
